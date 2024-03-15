@@ -33,6 +33,7 @@ jobs:
         if: ${{ env.SKIP_VALIDATION  != 'true' }}
         uses: gabledata/cicd/github-actions/validate-contracts@latest
         with:
+          allow-gable-pre-release: true
           # Provide API key and endpoint secrets
           gable-api-key: ${{secrets.GABLE_API_KEY}}
           gable-api-endpoint: ${{secrets.GABLE_API_ENDPOINT}}
