@@ -1,5 +1,5 @@
-id: 605a22c0-1657-4cfa-aace-7e2db379898e
-dataAssetResourceName: typescript://git@github.com:gabledata/ts-sample:.:segment:Save for later
+id: 28736e9a-8aa3-4d2f-b1f2-6da0482d55d5
+dataAssetResourceName: typescript://git@github.com:suzannewen/tutorial:typescript:segment:Save for later
 doc: Asset for Save For Later event
 name: Save for later
 namespace: ts_sample
