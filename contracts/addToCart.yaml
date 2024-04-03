@@ -1,0 +1,13 @@
+id: 8e6b4e56-e23a-41fb-93a6-a153d0b56804
+dataAssetResourceName: typescript://git@github.com:suzannewen/tutorial:typescript:segment:Add to cart
+doc: Asset for Add To Cart event
+name: Add to cart
+namespace: ts_sample
+owner: suzanne@gable.ai
+schema:
+  - name: productId
+    type: string
+    doc: "Id of the product in the cart"
+  - name: quantity
+    type: string
+    doc: "Number of products in the cart"
