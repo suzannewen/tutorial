@@ -119,7 +119,6 @@ jobs:
               --proxy-schema public \
               --proxy-user postgres \
               --proxy-password postgres
-
       - name: Check TypeScript Data Assets
         uses: gabledata/cicd/github-actions/check-data-assets@latest
         with:
@@ -129,4 +128,4 @@ jobs:
             data-asset-options: |
               --source-type typescript \
               --library segment \
-              --project-root ../../typescript
+              --project-root ./typescript
