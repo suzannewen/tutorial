@@ -129,4 +129,4 @@ jobs:
             data-asset-options: |
               --source-type typescript \
               --library segment \
-              --project-root ../../typescript \
+              --project-root ../../typescript
