@@ -1,5 +1,5 @@
-id: 28736e9a-8aa3-4d2f-b1f2-6da0482d55d5
-dataAssetResourceName: typescript://git@github.com:suzannewen/tutorial:.:segment:Add to cart
+id: 08cfdb39-af82-43f5-9ed1-8db1e5f36e1f
+dataAssetResourceName: typescript://git@github.com:suzannewen/tutorial:typescript:segment:Save for later
 doc: Asset for Save For Later event
 name: Save for later
 namespace: ts_sample

@@ -1,5 +1,5 @@
-id: 131c71b7-0364-4e24-ade0-4d0061217105
-dataAssetResourceName: typescript://git@github.com:suzannewen/tutorial:.:segment:Add to cart
+id: 8e6b4e56-e23a-41fb-93a6-a153d0b56804
+dataAssetResourceName: typescript://git@github.com:suzannewen/tutorial:typescript:segment:Add to cart
 doc: Asset for Add To Cart event
 name: Add to cart
 namespace: ts_sample
