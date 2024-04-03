@@ -119,3 +119,14 @@ jobs:
               --proxy-schema public \
               --proxy-user postgres \
               --proxy-password postgres
+
+      - name: Check TypeScript Data Assets
+        uses: gabledata/cicd/github-actions/check-data-assets@latest
+        with:
+            # Provide API key secret, and endpoint variable created in previous steps
+            gable-api-key: ${{secrets.GABLE_API_KEY}}
+            gable-api-endpoint: ${{secrets.GABLE_API_ENDPOINT}}
+            data-asset-options: |
+              --source-type typescript \
+              --library segment \
+              --project-root ../../typescript \
